@@ -7,7 +7,6 @@ pipeline {
 	        sh 'mvn clean compile'
 	       }
 	    }
-	}
 
       stage ('testing stage') {
        steps {
